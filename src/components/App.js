@@ -9,7 +9,12 @@ const App = () => {
   
   return (
     <div id="main">
-      
+      <form>
+        <label for="search">Search</label><br />
+        <input type ="text" id="search-input" className="text" /><br />
+        <label for ="result">Result</label>
+
+      </form>
     </div>
   )
 }
